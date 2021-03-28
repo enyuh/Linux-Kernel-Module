@@ -2,10 +2,10 @@
 
 Step 1:design a simple Kernel Module and test it:<br>
 1. Make a simple kernel module as below:<br>
-'''
+```
 mkdir ~/src/lkm_example
 cd ~/src/lkm_example
-'''
+```
 3. Write a Makefile then make it, this will generate a lkm_example.ko, we will use it as a kernel module later on.<br>
 4. Write a test function in Makefile that includes the insmod and rmmod lkm_example.ko so that we can do the above action with one command : $ make test.<br>
 
