@@ -2,6 +2,7 @@
 
 Step 1:design a simple Kernel Module and test it:<br>
 1. Make a simple kernel module as below:<br>
+<img src="https://drive.google.com/file/d/1DkJ61xGvHjGOBi6MaTfWLhSktAUfi4di/view?usp=sharing" alt="JPEG block diagram" width="50%">
 2. Write a Makefile then make it, this will generate a lkm_example.ko, we will use it as a kernel module later on.<br>
 3. Write a test function in Makefile that includes the insmod and rmmod lkm_example.ko so that we can do the above action with one command : $ make test.<br>
 
